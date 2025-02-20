@@ -45,7 +45,7 @@ VPS (Sanal Özel Sunucu) güvenliği ve performansını denetlemek için kapsaml
 Script'i aşağıdaki komut ile indirebilirsiniz:
 
 ```bash
-wget https://raw.githubusercontent.com/vernu/vps-audit/main/vps-audit.sh
+wget https://raw.githubusercontent.com/erenakkus/sunucu-guvenlik-kontrolu/b5f6735d0eba08e6a42f56ef0ebcf075ca053e46/en-start-control.sh
 ```
 
 
@@ -53,14 +53,14 @@ Script’i Çalıştırılabilir Yapma
 Script’i çalıştırılabilir hale getirmek için:
 
 ```bash
-chmod +x vps-audit.sh
+chmod +x en-start-control.sh
 ```
 
 ##Script'in Çalıştırılması
-###Script'i sudo ayrıcalıklarıyla çalıştırın:
+###Script'i çalıştırın:
 
 ```bash
-sudo ./vps-audit.sh
+bash en-start-control.sh
 ```
 
 ##Script, aşağıdaki işlemleri yapacaktır:
